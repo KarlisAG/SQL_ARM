@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "administratorLogin": {
+      "value": "task4TemplateUser"
+    },
+    "administratorLoginPassword": {
+      "value": "task4TemplatePW!"
+    },
+    "serverName": {
+      "value": "task4sql"
+    },
+    "elasticPoolName": {
+      "value": "elasticp"
+    },
+    "edition": {
+      "value": "Standard"
+    },
+    "capacity": {
+      "value": 100
+    },
+    "databaseCapacityMin": {
+      "value": 0
+    },
+    "databaseCapacityMax": {
+      "value": 100
+    },
+    "databaseCollation": {
+      "value": "SQL_Latin1_General_CP1_CI_AS"
+    }
+  }
+}
